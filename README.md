@@ -24,7 +24,9 @@ python explore.py --watch                              # a MuJoCo window should 
 
 A training run (300–400k steps) takes roughly 3–10 minutes on a laptop CPU. No GPU needed.
 
-**Trained policies are included** in `runs/`, so you can watch them right away without training:
+**Trained policies** from the demo are in `runs/` in the original zip (not in git: `runs/` is
+ignored because training output is regenerated, not versioned). If you have them, watch
+them right away; on a fresh clone, train first:
 
 ```bash
 python evaluate.py runs/hopper_survive_only_ppo_s0 --watch     # the reward hack

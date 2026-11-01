@@ -1,0 +1,19 @@
+# ---- Training output (regenerate by re-running the scripts) ----
+# train.py: models, checkpoints, episodes.csv, config.json
+runs/
+# captured training logs
+logs_*.txt
+# plot.py's default output and evaluate.py --video files, when written to the repo root
+/compare*.png
+/*.mp4
+
+# ---- Python / environment ----
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# ---- OS / editor clutter ----
+.DS_Store
+.vscode/
+.idea/

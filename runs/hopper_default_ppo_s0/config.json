@@ -1,0 +1,16 @@
+{
+  "env": "Hopper-v5",
+  "preset": "default",
+  "w": null,
+  "algo": "ppo",
+  "steps": 400000,
+  "seed": 0,
+  "n_envs": 4,
+  "name": null,
+  "weights": {
+    "forward": 1.0,
+    "alive": 1.0,
+    "ctrl": 0.001
+  },
+  "run_dir": "runs/hopper_default_ppo_s0"
+}
